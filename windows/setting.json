@@ -1,0 +1,19 @@
+{
+    "setting": {
+        "team": "0",
+        "car": {
+            "mass": "2",
+            "width": "0.25",
+            "height": "0.25"
+        },
+        "treasures_map": "treasures_map",
+        "gyroscope_serial_port": "3",
+        "debug": {
+            "show_grid": "true",
+            "show_inflection": "false",
+            "show_node": "true",
+            "show_gyroscope_data": "false",
+            "show_car_state": "false"
+        }
+    }
+}

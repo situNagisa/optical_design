@@ -1,0 +1,25 @@
+﻿G:\root\include\opencv2\objdetect\aruco_board.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\main_data.h(59,13): warning C4244: “初始化”: 从“ngs::type::float64”转换到“float”，可能丢失数据
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\main_data.h(62,15): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\main_data.h(64,1): warning C4305: “-=”: 从“double”到“float”截断
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\main_data.h(66,1): warning C4305: “+=”: 从“double”到“float”截断
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\main_data.h(112,28): warning C4101: “e”: 未引用的局部变量
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\main_data.h(173,28): warning C4101: “e”: 未引用的局部变量
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\data\path.h(98,74): warning C4267: “参数”: 从“size_t”转换到“ngs::type::uint32”，可能丢失数据
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\ctrl\physic.h(68,32): warning C4305: “=”: 从“double”到“float”截断
+D:\Application\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\numbers(175,52): warning C4305: “=”: 从“const double”到“float”截断
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\ctrl\physic.h(79,89): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\ctrl\physic.h(79,50): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\optical_design.h(85,48): warning C4244: “参数”: 从“float”转换到“size_t”，可能丢失数据
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\optical_design.h(85,33): warning C4244: “参数”: 从“float”转换到“size_t”，可能丢失数据
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\optical_design.h(86,42): warning C4244: “参数”: 从“float”转换到“size_t”，可能丢失数据
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\optical_design.h(86,29): warning C4244: “参数”: 从“float”转换到“size_t”，可能丢失数据
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\optical_design.h(74,25): warning C4101: “e”: 未引用的局部变量
+G:\Projects\C_CPP\Clion\NGS\include\NGS\math\vector.h(129,59): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+GLAD.lib(glad.obj) : warning LNK4099: 未找到 PDB“”(使用“GLAD.lib(glad.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+imgui.lib(imgui_impl_glfw.obj) : warning LNK4099: 未找到 PDB“”(使用“imgui.lib(imgui_impl_glfw.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+imgui.lib(imgui_impl_opengl3.obj) : warning LNK4099: 未找到 PDB“”(使用“imgui.lib(imgui_impl_opengl3.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+imgui.lib(imgui.obj) : warning LNK4099: 未找到 PDB“”(使用“imgui.lib(imgui.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+imgui.lib(imgui_widgets.obj) : warning LNK4099: 未找到 PDB“”(使用“imgui.lib(imgui_widgets.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+imgui.lib(imgui_draw.obj) : warning LNK4099: 未找到 PDB“”(使用“imgui.lib(imgui_draw.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+imgui.lib(imgui_tables.obj) : warning LNK4099: 未找到 PDB“”(使用“imgui.lib(imgui_tables.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样

@@ -1,0 +1,70 @@
+﻿G:\root\include\opencv2\objdetect\aruco_board.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\main_data.h(59,13): warning C4244: “初始化”: 从“ngs::type::float64”转换到“float”，可能丢失数据
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\main_data.h(62,15): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\main_data.h(64,1): warning C4305: “-=”: 从“double”到“float”截断
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\main_data.h(66,1): warning C4305: “+=”: 从“double”到“float”截断
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\main_data.h(112,28): warning C4101: “e”: 未引用的局部变量
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\data\path.h(98,74): warning C4267: “参数”: 从“size_t”转换到“opt::position_id_t”，可能丢失数据
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\ctrl\physic.h(24,90): warning C4244: “参数”: 从“const int”转换到“float”，可能丢失数据
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\ctrl\physic.h(24,83): warning C4244: “参数”: 从“const int”转换到“float”，可能丢失数据
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\ctrl\physic.h(70,32): warning C4305: “=”: 从“double”到“float”截断
+D:\Application\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\numbers(175,52): warning C4305: “=”: 从“const double”到“float”截断
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\ctrl\physic.h(81,89): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\ctrl\physic.h(81,50): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\optical_design.h(85,48): warning C4244: “参数”: 从“float”转换到“size_t”，可能丢失数据
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\optical_design.h(85,33): warning C4244: “参数”: 从“float”转换到“size_t”，可能丢失数据
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\optical_design.h(86,42): warning C4244: “参数”: 从“float”转换到“size_t”，可能丢失数据
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\optical_design.h(86,29): warning C4244: “参数”: 从“float”转换到“size_t”，可能丢失数据
+G:\Projects\C_CPP\Clion\NGS\include\NGS\math\vector.h(129,59): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/LTCG”规范)
+LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+box2dd.lib(b2_world.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_world.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_body.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_body.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_polygon_shape.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_polygon_shape.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_settings.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_settings.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_island.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_island.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_dynamic_tree.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_dynamic_tree.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_broad_phase.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_broad_phase.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_fixture.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_fixture.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_contact.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_contact.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_draw.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_draw.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_joint.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_joint.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_distance.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_distance.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_time_of_impact.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_time_of_impact.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_timer.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_timer.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_block_allocator.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_block_allocator.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_contact_manager.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_contact_manager.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_stack_allocator.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_stack_allocator.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_math.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_math.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_collision.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_collision.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_contact_solver.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_contact_solver.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_chain_circle_contact.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_chain_circle_contact.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_chain_polygon_contact.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_chain_polygon_contact.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_circle_contact.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_circle_contact.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_edge_circle_contact.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_edge_circle_contact.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_edge_polygon_contact.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_edge_polygon_contact.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_polygon_circle_contact.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_polygon_circle_contact.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_polygon_contact.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_polygon_contact.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_distance_joint.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_distance_joint.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_friction_joint.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_friction_joint.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_gear_joint.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_gear_joint.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_motor_joint.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_motor_joint.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_mouse_joint.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_mouse_joint.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_prismatic_joint.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_prismatic_joint.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_pulley_joint.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_pulley_joint.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_revolute_joint.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_revolute_joint.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_weld_joint.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_weld_joint.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_wheel_joint.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_wheel_joint.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_world_callbacks.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_world_callbacks.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_collide_edge.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_collide_edge.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_chain_shape.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_chain_shape.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_edge_shape.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_edge_shape.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_collide_circle.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_collide_circle.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+box2dd.lib(b2_collide_polygon.obj) : warning LNK4099: 未找到 PDB“”(使用“box2dd.lib(b2_collide_polygon.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+GLAD.lib(glad.obj) : warning LNK4099: 未找到 PDB“”(使用“GLAD.lib(glad.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+imgui.lib(imgui.obj) : warning LNK4099: 未找到 PDB“”(使用“imgui.lib(imgui.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+imgui.lib(imgui_widgets.obj) : warning LNK4099: 未找到 PDB“”(使用“imgui.lib(imgui_widgets.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+imgui.lib(imgui_impl_glfw.obj) : warning LNK4099: 未找到 PDB“”(使用“imgui.lib(imgui_impl_glfw.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+imgui.lib(imgui_impl_opengl3.obj) : warning LNK4099: 未找到 PDB“”(使用“imgui.lib(imgui_impl_opengl3.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+imgui.lib(imgui_draw.obj) : warning LNK4099: 未找到 PDB“”(使用“imgui.lib(imgui_draw.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+imgui.lib(imgui_tables.obj) : warning LNK4099: 未找到 PDB“”(使用“imgui.lib(imgui_tables.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样

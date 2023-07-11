@@ -1,0 +1,57 @@
+﻿G:\root\include\opencv2\objdetect\aruco_board.hpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\main_data.h(47,13): warning C4244: “初始化”: 从“ngs::type::float64”转换到“float”，可能丢失数据
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\main_data.h(50,15): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\main_data.h(52,1): warning C4305: “-=”: 从“double”到“float”截断
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\main_data.h(54,1): warning C4305: “+=”: 从“double”到“float”截断
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\main_data.h(88,28): warning C4101: “e”: 未引用的局部变量
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\ctrl\move.h(12,16): warning C4101: “next_position”: 未引用的局部变量
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\ctrl\physic.h(50,55): warning C4244: “参数”: 从“unsigned __int64”转换到“float”，可能丢失数据
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\ctrl\physic.h(50,46): warning C4244: “参数”: 从“unsigned __int64”转换到“float”，可能丢失数据
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\ctrl\physic.h(55,32): warning C4305: “=”: 从“double”到“float”截断
+D:\Application\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\numbers(175,52): warning C4305: “=”: 从“const double”到“float”截断
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\ctrl\physic.h(66,89): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\ctrl\physic.h(66,50): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\optical_design.h(80,48): warning C4244: “参数”: 从“float”转换到“size_t”，可能丢失数据
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\optical_design.h(80,33): warning C4244: “参数”: 从“float”转换到“size_t”，可能丢失数据
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\optical_design.h(81,42): warning C4244: “参数”: 从“float”转换到“size_t”，可能丢失数据
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\optical_design.h(81,29): warning C4244: “参数”: 从“float”转换到“size_t”，可能丢失数据
+G:\Projects\C_CPP\VisualStudio\optical_design\include\optical_design\data\maze\inflection_point.h(43): warning C4715: “opt::operator-”: 不是所有的控件路径都返回值
+main.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl cv::Mat::Mat(void)" (??0Mat@cv@@QEAA@XZ)，函数 "void __cdecl optical_design(void)" (?optical_design@@YAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl cv::Mat::Mat(class cv::Mat const &)" (??0Mat@cv@@QEAA@AEBV01@@Z)，函数 "void __cdecl optical_design(void)" (?optical_design@@YAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl cv::Mat::~Mat(void)" (??1Mat@cv@@QEAA@XZ)，函数 "void __cdecl optical_design(void)" (?optical_design@@YAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: bool __cdecl cv::Mat::empty(void)const " (?empty@Mat@cv@@QEBA_NXZ)，函数 "void __cdecl optical_design(void)" (?optical_design@@YAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: class cv::Mat & __cdecl cv::Mat::operator=(class cv::Mat &&)" (??4Mat@cv@@QEAAAEAV01@$$QEAV01@@Z)，函数 "void __cdecl optical_design(void)" (?optical_design@@YAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "class cv::Mat __cdecl cv::imread(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (?imread@cv@@YA?AVMat@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)，函数 "void __cdecl optical_design(void)" (?optical_design@@YAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: static class cv::Mat __cdecl vision::CVUtil::RECOGONIZE_MAZE(class cv::Mat const &,int,int)" (?RECOGONIZE_MAZE@CVUtil@vision@@SA?AVMat@cv@@AEBV34@HH@Z)，函数 "void __cdecl optical_design(void)" (?optical_design@@YAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: static struct vision::Treasure __cdecl vision::CVUtil::RECOGNIZE_TREASURE(class cv::Mat &,struct vision::ColorRange const &,struct vision::ColorRange const &)" (?RECOGNIZE_TREASURE@CVUtil@vision@@SA?AUTreasure@2@AEAVMat@cv@@AEBUColorRange@2@1@Z)，函数 "void __cdecl optical_design(void)" (?optical_design@@YAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: static class std::optional<class std::tuple<class ngs::Vector2D<float>,class ngs::Vector2D<float>,class std::vector<class ngs::Vector2D<float>,class std::allocator<class ngs::Vector2D<float> > > > > __cdecl vision::CVUtil::CONVERT_IMAGE_TO_MAZE(class cv::Mat,struct vision::ColorRange,struct vision::ColorRange,enum vision::MazeGrid (&)[21][21])" (?CONVERT_IMAGE_TO_MAZE@CVUtil@vision@@SA?AV?$optional@V?$tuple@V?$Vector2D@M@ngs@@V12@V?$vector@V?$Vector2D@M@ngs@@V?$allocator@V?$Vector2D@M@ngs@@@std@@@std@@@std@@@std@@VMat@cv@@UColorRange@2@1AEAY1BF@BF@W4MazeGrid@2@@Z)，函数 "void __cdecl optical_design(void)" (?optical_design@@YAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: bool __cdecl opt::Camera::Open(void)" (?Open@Camera@opt@@QEAA_NXZ)，函数 "public: bool __cdecl opt::Device::Open(void)" (?Open@Device@opt@@QEAA_NXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: bool __cdecl opt::Camera::IsOpened(void)const " (?IsOpened@Camera@opt@@QEBA_NXZ)，函数 "public: bool __cdecl opt::Device::Open(void)" (?Open@Device@opt@@QEAA_NXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl opt::Camera::Close(void)" (?Close@Camera@opt@@QEAAXXZ)，函数 "public: void __cdecl opt::Device::Close(void)" (?Close@Device@opt@@QEAAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl opt::Camera::Update(void)" (?Update@Camera@opt@@QEAAXXZ)，函数 "public: void __cdecl opt::Device::Update(void)" (?Update@Device@opt@@QEAAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: class cv::Mat __cdecl opt::Camera::Get(void)" (?Get@Camera@opt@@QEAA?AVMat@cv@@XZ)，函数 "void __cdecl optical_design(void)" (?optical_design@@YAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: bool __cdecl opt::Engine::Open(void)" (?Open@Engine@opt@@QEAA_NXZ)，函数 "public: bool __cdecl opt::Device::Open(void)" (?Open@Device@opt@@QEAA_NXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl opt::Engine::Close(void)" (?Close@Engine@opt@@QEAAXXZ)，函数 "public: void __cdecl opt::Device::Close(void)" (?Close@Device@opt@@QEAAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl opt::Engine::Update(void)" (?Update@Engine@opt@@QEAAXXZ)，函数 "public: void __cdecl opt::Device::Update(void)" (?Update@Device@opt@@QEAAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: bool __cdecl opt::Engine::IsOpened(void)const " (?IsOpened@Engine@opt@@QEBA_NXZ)，函数 "public: bool __cdecl opt::Device::Open(void)" (?Open@Device@opt@@QEAA_NXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: float __cdecl opt::Engine::GetLinearVelocity(void)const " (?GetLinearVelocity@Engine@opt@@QEBAMXZ)，函数 "void __cdecl optical_design(void)" (?optical_design@@YAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: bool __cdecl opt::Gyroscope::Open(void)" (?Open@Gyroscope@opt@@QEAA_NXZ)，函数 "public: bool __cdecl opt::Device::Open(void)" (?Open@Device@opt@@QEAA_NXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl opt::Gyroscope::Close(void)" (?Close@Gyroscope@opt@@QEAAXXZ)，函数 "public: void __cdecl opt::Device::Close(void)" (?Close@Device@opt@@QEAAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl opt::Gyroscope::Update(void)" (?Update@Gyroscope@opt@@QEAAXXZ)，函数 "public: void __cdecl opt::Device::Update(void)" (?Update@Device@opt@@QEAAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: bool __cdecl opt::Gyroscope::IsOpened(void)const " (?IsOpened@Gyroscope@opt@@QEBA_NXZ)，函数 "public: bool __cdecl opt::Device::Open(void)" (?Open@Device@opt@@QEAA_NXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: float __cdecl opt::Gyroscope::GetAccelerationX(void)const " (?GetAccelerationX@Gyroscope@opt@@QEBAMXZ)，函数 "void __cdecl optical_design(void)" (?optical_design@@YAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: float __cdecl opt::Gyroscope::GetAccelerationY(void)const " (?GetAccelerationY@Gyroscope@opt@@QEBAMXZ)，函数 "void __cdecl optical_design(void)" (?optical_design@@YAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: float __cdecl opt::Gyroscope::GetAngularVelocityZ(void)const " (?GetAngularVelocityZ@Gyroscope@opt@@QEBAMXZ)，函数 "void __cdecl optical_design(void)" (?optical_design@@YAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: bool __cdecl opt::Screen::Open(void)" (?Open@Screen@opt@@QEAA_NXZ)，函数 "public: bool __cdecl opt::Device::Open(void)" (?Open@Device@opt@@QEAA_NXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl opt::Screen::Close(void)" (?Close@Screen@opt@@QEAAXXZ)，函数 "public: void __cdecl opt::Device::Close(void)" (?Close@Device@opt@@QEAAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl opt::Screen::Update(void)" (?Update@Screen@opt@@QEAAXXZ)，函数 "public: void __cdecl opt::Device::Update(void)" (?Update@Device@opt@@QEAAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: bool __cdecl opt::Screen::IsOpened(void)const " (?IsOpened@Screen@opt@@QEBA_NXZ)，函数 "public: bool __cdecl opt::Device::Open(void)" (?Open@Device@opt@@QEAA_NXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl opt::Screen::Show(class cv::Mat const &)" (?Show@Screen@opt@@QEAAXAEBVMat@cv@@@Z)，函数 "void __cdecl optical_design(void)" (?optical_design@@YAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl b2World::b2World(struct b2Vec2 const &)" (??0b2World@@QEAA@AEBUb2Vec2@@@Z)，函数 "public: __cdecl opt::Physic::Physic(void)" (??0Physic@opt@@QEAA@XZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl b2World::~b2World(void)" (??1b2World@@QEAA@XZ)，函数 "public: void * __cdecl b2World::`scalar deleting destructor'(unsigned int)" (??_Gb2World@@QEAAPEAXI@Z) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: class b2Body * __cdecl b2World::CreateBody(struct b2BodyDef const *)" (?CreateBody@b2World@@QEAAPEAVb2Body@@PEBUb2BodyDef@@@Z)，函数 "private: void __cdecl opt::Physic::_InitBody(void)" (?_InitBody@Physic@opt@@AEAAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl b2World::Step(float,int,int)" (?Step@b2World@@QEAAXMHH@Z)，函数 "public: void __cdecl opt::Physic::Update(void)" (?Update@Physic@opt@@QEAAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: class b2Fixture * __cdecl b2Body::CreateFixture(class b2Shape const *,float)" (?CreateFixture@b2Body@@QEAAPEAVb2Fixture@@PEBVb2Shape@@M@Z)，函数 "private: void __cdecl opt::Physic::_InitBody(void)" (?_InitBody@Physic@opt@@AEAAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl b2PolygonShape::b2PolygonShape(void)" (??0b2PolygonShape@@QEAA@XZ)，函数 "private: void __cdecl opt::Physic::_InitBody(void)" (?_InitBody@Physic@opt@@AEAAXXZ) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl b2PolygonShape::SetAsBox(float,float)" (?SetAsBox@b2PolygonShape@@QEAAXMM@Z)，函数 "private: void __cdecl opt::Physic::_InitBody(void)" (?_InitBody@Physic@opt@@AEAAXXZ) 中引用了该符号
+G:\Projects\C_CPP\VisualStudio\optical_design\bin\x64\Debug\optical_design.exe : fatal error LNK1120: 38 个无法解析的外部命令
