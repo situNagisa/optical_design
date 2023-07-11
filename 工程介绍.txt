@@ -15,3 +15,10 @@
 optical_design  :   项目本体(header-only),无需经过编译
 windows         :   windows运行环境
 linux           :   linux运行环境
+
+详细流程：
+到 https://github.com/situNagisa/NGS 下载NGS工程
+到 https://github.com/situNagisa/optical_design 下载项目工程
+将NGS/include配置为环境变量`NAGISA_DIR`
+解压root.zip至C:\configure\visual_studio\，并设置其为环境变量`NAGISA_ROOT`
+尝试启动工程
