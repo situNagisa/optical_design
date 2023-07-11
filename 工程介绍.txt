@@ -20,7 +20,8 @@ linux           :   linux运行环境
 到 https://github.com/situNagisa/NGS 下载NGS工程
 到 https://github.com/situNagisa/optical_design 下载项目工程
 将NGS/include配置为环境变量`NAGISA_DIR`
-解压root.zip至C:\configure\visual_studio\，并设置其为环境变量`NAGISA_ROOT`
+解压root.zip，并设置其为环境变量`NAGISA_ROOT`
+解压configure.zip至C:\configure\visual_studio\
 尝试启动工程
 
 [2023:07:11]    工程刚合并，有些bug，尽量在今天赶出来

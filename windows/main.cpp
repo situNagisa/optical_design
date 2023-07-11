@@ -1,5 +1,4 @@
 ﻿#include "optical_design/optical_design.h"
-#include "NGL/NGL.h"
 #include "gui.h"
 
 void RunningDataWindow() {

@@ -1,7 +1,6 @@
 ﻿#pragma once
 
-
-#include "NGL/NGL.h"
+#include "NGS/ngl/NGL.h"
 #include "imgui/imgui.h"
 
 #include "imgui/backends/imgui_impl_glfw.h"

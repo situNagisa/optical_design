@@ -19,10 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="box2d\draw.cpp" />
-    <ClCompile Include="box2d\ngs_hello.cpp" />
-    <ClCompile Include="box2d\settings.cpp" />
-    <ClCompile Include="box2d\test.cpp" />
     <ClCompile Include="device\camera.cpp" />
     <ClCompile Include="device\engine.cpp" />
     <ClCompile Include="device\gyroscope.cpp" />
@@ -37,9 +33,6 @@
     <None Include="treasures_map" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="box2d\draw.h" />
-    <ClInclude Include="box2d\settings.h" />
-    <ClInclude Include="box2d\test.h" />
     <ClInclude Include="gui.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

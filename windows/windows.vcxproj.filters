@@ -39,18 +39,6 @@
     <ClCompile Include="vision.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="box2d\draw.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="box2d\test.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="box2d\ngs_hello.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="box2d\settings.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="setting.json" />
@@ -58,15 +46,6 @@
     <None Include="treasures_map" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="box2d\draw.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="box2d\settings.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="box2d\test.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="gui.h">
       <Filter>头文件</Filter>
     </ClInclude>
