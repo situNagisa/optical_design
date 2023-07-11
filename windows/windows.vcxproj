@@ -79,35 +79,35 @@
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\..\..\..\..\..\Configure\VisualStudio\NagisaBase.props" />
-    <Import Project="..\..\..\..\..\Configure\VisualStudio\OpenCVDebug.props" />
-    <Import Project="..\..\..\..\..\Configure\VisualStudio\Box2DDebug.props" />
-    <Import Project="..\..\..\..\..\Configure\VisualStudio\ImGUI.props" />
-    <Import Project="..\..\..\..\..\Configure\VisualStudio\OpenGL.props" />
+    <Import Project="C:\configure\visual_studio\NagisaBase.props" />
+    <Import Project="C:\configure\visual_studio\ImGUI.props" />
+    <Import Project="C:\configure\visual_studio\OpenGL.props" />
+    <Import Project="C:\configure\visual_studio\Box2DDebug.props" />
+    <Import Project="C:\configure\visual_studio\OpenCVDebug.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\..\..\..\..\..\Configure\VisualStudio\NagisaBase.props" />
-    <Import Project="..\..\..\..\..\Configure\VisualStudio\Box2D.props" />
-    <Import Project="..\..\..\..\..\Configure\VisualStudio\OpenCV.props" />
-    <Import Project="..\..\..\..\..\Configure\VisualStudio\ImGUI.props" />
-    <Import Project="..\..\..\..\..\Configure\VisualStudio\OpenGL.props" />
+    <Import Project="C:\configure\visual_studio\NagisaBase.props" />
+    <Import Project="C:\configure\visual_studio\ImGUI.props" />
+    <Import Project="C:\configure\visual_studio\OpenGL.props" />
+    <Import Project="C:\configure\visual_studio\Box2D.props" />
+    <Import Project="C:\configure\visual_studio\OpenCV.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\..\..\..\..\..\Configure\VisualStudio\NagisaBase.props" />
-    <Import Project="..\..\..\..\..\Configure\VisualStudio\OpenCVDebug.props" />
-    <Import Project="..\..\..\..\..\Configure\VisualStudio\Box2DDebug.props" />
-    <Import Project="..\..\..\..\..\Configure\VisualStudio\ImGUI.props" />
-    <Import Project="..\..\..\..\..\Configure\VisualStudio\OpenGL.props" />
+    <Import Project="C:\configure\visual_studio\NagisaBase.props" />
+    <Import Project="C:\configure\visual_studio\ImGUI.props" />
+    <Import Project="C:\configure\visual_studio\OpenGL.props" />
+    <Import Project="C:\configure\visual_studio\Box2DDebug.props" />
+    <Import Project="C:\configure\visual_studio\OpenCVDebug.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\..\..\..\..\..\Configure\VisualStudio\NagisaBase.props" />
-    <Import Project="..\..\..\..\..\Configure\VisualStudio\Box2D.props" />
-    <Import Project="..\..\..\..\..\Configure\VisualStudio\OpenCV.props" />
-    <Import Project="..\..\..\..\..\Configure\VisualStudio\ImGUI.props" />
-    <Import Project="..\..\..\..\..\Configure\VisualStudio\OpenGL.props" />
+    <Import Project="C:\configure\visual_studio\NagisaBase.props" />
+    <Import Project="C:\configure\visual_studio\ImGUI.props" />
+    <Import Project="C:\configure\visual_studio\OpenGL.props" />
+    <Import Project="C:\configure\visual_studio\Box2D.props" />
+    <Import Project="C:\configure\visual_studio\OpenCV.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">

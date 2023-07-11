@@ -1,0 +1,17 @@
+光电赛工程
+项目依赖：
+    NGS     ->  (请设置`NAGISA_DIR`环境变量，该环境变量指向NGS工程的include目录，如"G:\Projects\C_CPP\Clion\NGS\include\")
+    opencv  |
+    imgui   |
+    sajson  |-> (请设置`NAGISA_ROOT`环境变量，该变量指向root文件夹，如"G:\root\"，root内容请在群中下载压缩包(体积有点大))
+    box2d   |
+属性表设置:
+    属性表可以很方便配置visual studio工程项目，但缺点是只能使用绝对路径
+    所以这里将其设置为路径"C:\configure\visual_studio"，请将压缩包configure解压至该路径
+
+项目介绍：
+赛题可见"赛题.pdf"
+本项目为跨平台项目，在windows/linux上进行调试，最后在开发板上运行
+optical_design  :   项目本体(header-only),无需经过编译
+windows         :   windows运行环境
+linux           :   linux运行环境

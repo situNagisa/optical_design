@@ -1,4 +1,4 @@
-﻿#include "vision/vision.h"
+﻿#include "optical_design/vision/vision.h"
 
 namespace vision {
 	NGS_HPP_INLINE cv::Mat ColorRange::GetMask(const cv::Mat& hsv) const {

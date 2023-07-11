@@ -8,7 +8,7 @@
 #elif NGS_PLATFORM == NGS_LINUX
 #include "NGS/nsl/NSL.h"
 #endif
-#include "vision/vision.h"
+#include "optical_design/vision/vision.h"
 
 #define OPT_BEGIN namespace opt{
 #define OPT_END }

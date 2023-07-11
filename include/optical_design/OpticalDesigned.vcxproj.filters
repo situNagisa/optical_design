@@ -69,5 +69,14 @@
     <ClInclude Include="ctrl\ctrl.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="vision\defined.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vision\vision.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vision\vision.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-#include "vision/defined.h"
+#include "optical_design/vision/defined.h"
 
 
 namespace vision {
