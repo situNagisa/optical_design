@@ -32,6 +32,10 @@
 *.app
 *.ipch
 *.db
+
+temp/*
+out/*
+
 temp/compile/windows/x64/Debug/vision.cpp.ifc.dt.module.json
 temp/compile/windows/x64/Debug/test.h_7A630B26AEC287F8.ifc.dt.module.json
 temp/compile/windows/x64/Debug/test.cpp.ifc.dt.module.json

@@ -19,9 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="b2d\draw.cpp" />
+    <ClCompile Include="b2d\ngs_hello.cpp" />
+    <ClCompile Include="b2d\settings.cpp" />
+    <ClCompile Include="b2d\test.cpp" />
     <ClCompile Include="device\camera.cpp" />
     <ClCompile Include="device\engine.cpp" />
     <ClCompile Include="device\gyroscope.cpp" />
+    <ClCompile Include="global.cpp" />
+    <ClCompile Include="gui\imgui.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="ngs.cpp" />
     <ClCompile Include="device\screen.cpp" />
@@ -33,7 +39,13 @@
     <None Include="treasures_map" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="gui.h" />
+    <ClInclude Include="b2d\b2d.h" />
+    <ClInclude Include="b2d\draw.h" />
+    <ClInclude Include="b2d\settings.h" />
+    <ClInclude Include="b2d\test.h" />
+    <ClInclude Include="global.h" />
+    <ClInclude Include="gui\gui.h" />
+    <ClInclude Include="gui\imgui.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

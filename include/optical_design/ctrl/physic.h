@@ -15,11 +15,11 @@ namespace opt_b2 {
 
 	constexpr box2d_pos_t _transformant{ 0.2f, -0.2f };
 
-	b2Vec2 Convert(const box2d_pos_t& pos) { return b2Vec2(pos.x, pos.y); }
-	box2d_pos_t Convert(const b2Vec2& pos) { return ngs::Point2f(pos.x, pos.y); }
+	inline b2Vec2 Convert(const box2d_pos_t& pos) { return b2Vec2(pos.x, pos.y); }
+	inline box2d_pos_t Convert(const b2Vec2& pos) { return ngs::Point2f(pos.x, pos.y); }
 
-	b2Vec2 Transform(const opt::position_t& pos) { return Convert(box2d_pos_t(pos.x, pos.y) * _transformant); }
-	opt::position_t Transform(const b2Vec2& pos) {
+	inline b2Vec2 Transform(const opt::position_t& pos) { return Convert(box2d_pos_t(pos.x, pos.y) * _transformant); }
+	inline opt::position_t Transform(const b2Vec2& pos) {
 		auto result = Convert(pos) / _transformant;
 		return { (opt::position_t::type)std::round(result.x),(opt::position_t::type)std::round(result.y) };
 	}
