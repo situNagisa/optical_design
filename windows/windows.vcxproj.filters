@@ -39,22 +39,13 @@
     <ClCompile Include="vision.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="b2d\draw.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="b2d\ngs_hello.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="b2d\settings.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="b2d\test.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="gui\imgui.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="global.cpp">
+    <ClCompile Include="b2d\box2d_test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="b2d\ngs_hello.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -62,27 +53,10 @@
     <None Include="setting.json" />
     <None Include="imgui.ini" />
     <None Include="treasures_map" />
+    <None Include="box2d_setting.json" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="gui\imgui.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="b2d\draw.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="b2d\settings.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="b2d\test.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="gui\gui.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="global.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="b2d\b2d.h">
+    <ClInclude Include="data_manager.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

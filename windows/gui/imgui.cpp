@@ -1,7 +1,6 @@
-﻿#include "gui/imgui.h"
-#include "optical_design/optical_design.h"
-#include "global.h"
-#include "b2d/b2d.h"
+﻿#include "optical_design/optical_design.h"
+#include "NGS/imgui/imgui.h"
+#include "data_manager.h"
 
 static void AllocatorWindow() {
 	const ImGuiViewport* main_viewport = ImGui::GetMainViewport();
@@ -58,129 +57,33 @@ void RunningDataWindow() {
 
 static void UpdateUI()
 {
-	float menuWidth = 180.0f * s_displayScale;
-	if (g_debugDraw.m_showUI)
+	auto& data = DataManager::I();
+	float menuWidth = 180.0f * data.display_scale;
+	if (data.debug_draw.m_showUI)
 	{
-		ImGui::SetNextWindowPos({ g_camera.m_width - menuWidth - 10.0f, 10.0f });
-		ImGui::SetNextWindowSize({ menuWidth, g_camera.m_height - 20.0f });
+		ImGui::SetNextWindowPos({ data.camera.m_width - menuWidth - 10.0f, 10.0f });
+		ImGui::SetNextWindowSize({ menuWidth, data.camera.m_height - 20.0f });
 
-		ImGui::Begin("Tools", &g_debugDraw.m_showUI, ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoCollapse);
+		ImGui::Begin("Tools", &data.debug_draw.m_showUI, ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoCollapse);
 
 		if (ImGui::BeginTabBar("ControlTabs", ImGuiTabBarFlags_None))
 		{
-			if (ImGui::BeginTabItem("Controls"))
-			{
-				ImGui::SliderInt("Vel Iters", &s_settings.m_velocityIterations, 0, 50);
-				ImGui::SliderInt("Pos Iters", &s_settings.m_positionIterations, 0, 50);
-				ImGui::SliderFloat("Hertz", &s_settings.m_hertz, 5.0f, 120.0f, "%.0f hz");
+			data.settings.UpdateUI();
+			box2d::TestSelector::I().UpdateUI(data.settings);
 
-				ImGui::Separator();
-
-				ImGui::Checkbox("Sleep", &s_settings.m_enableSleep);
-				ImGui::Checkbox("Warm Starting", &s_settings.m_enableWarmStarting);
-				ImGui::Checkbox("Time of Impact", &s_settings.m_enableContinuous);
-				ImGui::Checkbox("Sub-Stepping", &s_settings.m_enableSubStepping);
-
-				ImGui::Separator();
-
-				ImGui::Checkbox("Shapes", &s_settings.m_drawShapes);
-				ImGui::Checkbox("Joints", &s_settings.m_drawJoints);
-				ImGui::Checkbox("AABBs", &s_settings.m_drawAABBs);
-				ImGui::Checkbox("Contact Points", &s_settings.m_drawContactPoints);
-				ImGui::Checkbox("Contact Normals", &s_settings.m_drawContactNormals);
-				ImGui::Checkbox("Contact Impulses", &s_settings.m_drawContactImpulse);
-				ImGui::Checkbox("Friction Impulses", &s_settings.m_drawFrictionImpulse);
-				ImGui::Checkbox("Center of Masses", &s_settings.m_drawCOMs);
-				ImGui::Checkbox("Statistics", &s_settings.m_drawStats);
-				ImGui::Checkbox("Profile", &s_settings.m_drawProfile);
-
-				ImVec2 button_sz = ImVec2(-1, 0);
-				if (ImGui::Button("Pause (P)", button_sz))
-				{
-					s_settings.m_pause = !s_settings.m_pause;
-				}
-
-				if (ImGui::Button("Single Step (O)", button_sz))
-				{
-					s_settings.m_singleStep = !s_settings.m_singleStep;
-				}
-
-				if (ImGui::Button("Restart (R)", button_sz))
-				{
-					RestartTest();
-				}
-
-				if (ImGui::Button("Quit", button_sz))
-				{
-					glfwSetWindowShouldClose(g_mainWindow, GL_TRUE);
-				}
-
-				ImGui::EndTabItem();
-			}
-
-			ImGuiTreeNodeFlags leafNodeFlags = ImGuiTreeNodeFlags_OpenOnArrow | ImGuiTreeNodeFlags_OpenOnDoubleClick;
-			leafNodeFlags |= ImGuiTreeNodeFlags_Leaf | ImGuiTreeNodeFlags_NoTreePushOnOpen;
-
-			ImGuiTreeNodeFlags nodeFlags = ImGuiTreeNodeFlags_OpenOnArrow | ImGuiTreeNodeFlags_OpenOnDoubleClick;
-
-			if (ImGui::BeginTabItem("Tests"))
-			{
-				int categoryIndex = 0;
-				const char* category = g_testEntries[categoryIndex].category;
-				int i = 0;
-				while (i < g_testCount)
-				{
-					bool categorySelected = strcmp(category, g_testEntries[s_settings.m_testIndex].category) == 0;
-					ImGuiTreeNodeFlags nodeSelectionFlags = categorySelected ? ImGuiTreeNodeFlags_Selected : 0;
-					bool nodeOpen = ImGui::TreeNodeEx(category, nodeFlags | nodeSelectionFlags);
-
-					if (nodeOpen)
-					{
-						while (i < g_testCount && strcmp(category, g_testEntries[i].category) == 0)
-						{
-							ImGuiTreeNodeFlags selectionFlags = 0;
-							if (s_settings.m_testIndex == i)
-							{
-								selectionFlags = ImGuiTreeNodeFlags_Selected;
-							}
-							ImGui::TreeNodeEx((void*)(intptr_t)i, leafNodeFlags | selectionFlags, "%s", g_testEntries[i].name);
-							if (ImGui::IsItemClicked())
-							{
-								s_testSelection = i;
-							}
-							++i;
-						}
-						ImGui::TreePop();
-					}
-					else
-					{
-						while (i < g_testCount && strcmp(category, g_testEntries[i].category) == 0)
-						{
-							++i;
-						}
-					}
-
-					if (i < g_testCount)
-					{
-						category = g_testEntries[i].category;
-						categoryIndex = i;
-					}
-				}
-				ImGui::EndTabItem();
-			}
 			ImGui::EndTabBar();
 		}
 
 		ImGui::End();
 
-		s_test->UpdateUI();
+		box2d::TestSelector::I().current_test->UpdateUI();
 	}
 }
 
 
-void ImageGUI::UpdateUI()
+void ngs::ImageGUI::UpdateUI()
 {
-	AllocatorWindow();
+	//AllocatorWindow();
 	RunningDataWindow();
-	UpdateUI();
+	::UpdateUI();
 }

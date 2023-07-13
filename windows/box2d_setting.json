@@ -1,0 +1,24 @@
+{
+    "setting": {
+        "testIndex": "0",
+        "windowWidth": "1920",
+        "windowHeight": "1080",
+        "hertz": "60",
+        "velocityIterations": "8",
+        "positionIterations": "3",
+        "drawShapes": "true",
+        "drawJoints": "true",
+        "drawAABBs": "false",
+        "drawContactPoints": "false",
+        "drawContactNormals": "false",
+        "drawContactImpulse": "false",
+        "drawFrictionImpulse": "false",
+        "drawCOMs": "false",
+        "Stats": "false",
+        "drawProfile": "false",
+        "enableWarmStarting": "true",
+        "enableContinuous": "true",
+        "enableSubStepping": "false",
+        "enableSleep": "true"
+    }
+}
