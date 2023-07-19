@@ -95,5 +95,5 @@ namespace vision {
 };
 
 #ifdef NGS_USE_HPP
-#include "vision/vision.hpp"
+#include "optical_design/vision/vision.hpp"
 #endif

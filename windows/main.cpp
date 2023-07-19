@@ -1,12 +1,12 @@
 ﻿#include "optical_design/optical_design.h"
 #include <box2d/test/test.h>
 #include "data_manager.h"
+#include "callback.h"
 
 static void glfw_error_callback(int error, const char* description)
 {
 	NGS_LOGFL(error, "glfw error: %d, %s", error, description);
 }
-namespace gl = ngl::gl;
 
 void mainUI() {
 #if defined(_WIN32)
@@ -27,8 +27,15 @@ void mainUI() {
 
 	glfwSetErrorCallback(glfw_error_callback);
 
-	ngl::GLFW& glfw = ngl::GLFW::I();
-	ngl::Window window(ngs::Format("Box2D Testbed Version %d.%d.%d", b2_version.major, b2_version.minor, b2_version.revision), data.settings.m_windowWidth, data.settings.m_windowHeight);
+	auto& glfw = ngl::targets::GLFW::I();
+	ngl::objects::Window window(ngs::Format("Box2D Testbed Version %d.%d.%d", b2_version.major, b2_version.minor, b2_version.revision), data.settings.m_windowWidth, data.settings.m_windowHeight);
+
+	glfwSetWindowSizeCallback(window.GetContext(), ResizeWindowCallback);
+	glfwSetKeyCallback(window.GetContext(), KeyCallback);
+	glfwSetCharCallback(window.GetContext(), CharCallback);
+	glfwSetMouseButtonCallback(window.GetContext(), MouseButtonCallback);
+	glfwSetCursorPosCallback(window.GetContext(), MouseMotionCallback);
+	glfwSetScrollCallback(window.GetContext(), ScrollCallback);
 
 	data.debug_draw.Create();
 
@@ -44,9 +51,9 @@ void mainUI() {
 	{
 		std::chrono::steady_clock::time_point t1 = std::chrono::steady_clock::now();
 
-		ngl::Renderer::I().Viewport(window);
-		ngl::Renderer::I().Clear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-		ngl::Renderer::I().FullColor(ngs::StdRGBA{0x80, 0x80, 0x80, 0xFF});
+		NGL_CHECK(glViewport(0, 0, window.GetSize().x, window.GetSize().y));
+		NGL_CHECK(glClear(GL_COLOR_BUFFER_BIT));
+		NGL_CHECK(glClearColor(0.2f, 0.3f, 0.3f, 1.0f));
 
 		imgui.NewFrame();
 		if (data.debug_draw.m_showUI)

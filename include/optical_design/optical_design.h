@@ -96,7 +96,7 @@ inline void optical_design() {
 			devices.Update();
 			running_data.car.acceleration.Set(devices.gyroscope.GetAccelerationX(), devices.gyroscope.GetAccelerationY());
 			//running_data.car.linear_velocity = devices.engine.GetLinearVelocity();
-			//running_data.car.angular_velocity = devices.gyroscope.GetAngularVelocityZ();
+			running_data.car.angular_velocity = devices.gyroscope.GetAngularVelocityZ();
 
 			if (running_data.requires_recognize_treasure) {
 				auto view = devices.camera.Get();

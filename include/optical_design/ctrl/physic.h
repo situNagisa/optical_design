@@ -47,7 +47,8 @@ public:
 
 	void Update() {
 		auto lv = data_manager.running_data.car.linear_velocity;
-		_body->SetLinearVelocity({ lv * std::cos(_body->GetAngle()),lv * std::sin(_body->GetAngle()) });
+		//_body->ApplyForceToCenter(opt_b2::Convert(data_manager.running_data.car.acceleration), true);
+		//_body->SetLinearVelocity({ lv * std::cos(_body->GetAngle()),lv * std::sin(_body->GetAngle()) });
 		_body->SetAngularVelocity(data_manager.running_data.car.angular_velocity);
 
 		_world->Step((float)data_manager.running_data.timer.GetDuration().count() / 1'000'000'000, 8, 2);

@@ -90,3 +90,4 @@ temp/compile/windows/x64/Debug/windows.tlog/Microsoft.Build.CPPTasks.CL.write.1.
 temp/compile/windows/x64/Debug/windows_MD.tlog/CL.command.1.tlog
 temp/compile/windows/x64/Debug/windows_MD.tlog/Microsoft.Build.CPPTasks.CL.read.1.tlog
 temp/compile/windows/x64/Debug/windows_MD.tlog/Microsoft.Build.CPPTasks.CL.write.1.tlog
+*.pdb
